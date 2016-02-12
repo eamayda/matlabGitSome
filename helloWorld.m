@@ -3,7 +3,7 @@ function outputString = helloWorld
 %   Detailed explanation goes here
 
 username = getenv( 'USERNAME' );
-outputString = sprintf( 'Hello World!\nIt''s nice to meet you, %s.  We should have a beer some time.\n', username );
+outputString = sprintf( 'Hello World!\nIt''s nice to meet you, %s.  We should have grag a shot of bourbon some time.\n', username );
 fprintf( 1, '%s', outputString );
 
 end
