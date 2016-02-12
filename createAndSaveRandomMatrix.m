@@ -5,5 +5,9 @@ function randomMatrix = createAndSaveRandomMatrix( matrixSize )
 randomMatrix = rand( matrixSize);
 save 'randomMatrix.mat' randomMatrix
 
+% Find and save inverse of the matrix
+inv_randomMatrix = inv(randomMatrix);
+save 'inv_randonMatrix.mat' inv_randomMatrix
+
 end
 
